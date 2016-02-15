@@ -1,6 +1,6 @@
 {
   "name": "throttle-override",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Returns a function that will can only be called a certain amount of times per second",
   "repository": "parro-it/throttle-override",
   "license": "MIT",
@@ -8,7 +8,10 @@
   "scripts": {
     "test": "eslint . && node test | faucet"
   },
-  "keywords": ["throttle", "function"],
+  "keywords": [
+    "throttle",
+    "function"
+  ],
   "engines": {
     "node": ">=4"
   },
