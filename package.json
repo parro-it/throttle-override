@@ -13,15 +13,14 @@
     "node": ">=5"
   },
   "eslintConfig": {
-    "extends": "js",
-    "env": {
-      "node": true,
-      "browser": true,
-      "es6": true
-    }
+    "extends": [
+      "js",
+      "features"
+    ]
   },
   "devDependencies": {
     "eslint": "^1.10.3",
+    "eslint-config-features": "^1.1.5",
     "eslint-config-js": "^2.0.2",
     "faucet": "0.0.1",
     "tape": "^4.2.2"
